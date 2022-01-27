@@ -1,0 +1,40 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 120px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav li{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.navStyle{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  display: block;
+  padding: 10px 16px;
+  letter-spacing: 2px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  margin-right: 0;
+  margin-left: 90%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.output{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.output li{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

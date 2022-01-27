@@ -1,0 +1,93 @@
+.post{
+  display: inline-block;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+  text-align: center;
+  padding: 0 20px 30px 20px
+}
+.post img{
+  width: 100px;
+  margin: -30px auto 20px;
+}
+
+.modal-btn{
+  color: rgb(117, 116, 116);
+  transition: text-decoration 5s;
+  cursor: pointer;
+}
+
+.modal-btn:hover{
+  text-decoration: underline;
+}
+
+.post-img{
+  width: 80%;
+  margin: 0px;
+  height: 80%;
+}
+
+.post-img img{
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border: 0;
+  height: 0.5px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.post-details{
+  position: relative;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.comment{
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.comment h5{
+  width: 30%;
+  text-decoration: underline;
+}
+
+.comment p{
+  width: 70%;
+}
+
+.reacts {
+
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  color: #ccc;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin: 0 0.15rem;
+}
+
+.good{
+  color: skyblue;
+} 
+
+.ok{
+  color: orange;
+}
+
+.bad{
+  color: yellowgreen;
+}

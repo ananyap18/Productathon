@@ -1,0 +1,56 @@
+.posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 80px;
+  margin: 80PX AUTO;
+  max-width: 1200px;
+}
+.post{
+  display: inline-block;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+  text-align: center;
+  padding: 0 20px 30px 20px
+}
+.post img{
+  width: 100px;
+  margin: -30px auto 20px;
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+  margin: 180px 0px;
+}
+
+.avatar img{
+  width: 250px;
+  height: 250px;
+}
+
+.details div{
+  display: flex;
+  justify-content: space-between;
+  width: 108%;
+}
+
+.rating{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+  margin: 0;
+  /* border: 2px solid red; */
+}
+
+input[type = "radio"] {
+  display: none;
+}
